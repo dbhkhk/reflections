@@ -1,2 +1,34 @@
 When would you want to create a remote repository rather than keeping all your work local?
 When some features of the project have been achieved and I want to share some of the work on GitHub.
+
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with
+your remote repository?
+Because sometimes changes in remote are created by others, I may not want those changes.
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks are copying of repositories within GitHub, it is not related to local environment. When I want to
+copy someone's repository to my GitHub, I use fork.
+There are two kinds of clones. One is copying of repositories from GitHub to a local place. The other is within
+local environment. When I want to copy files from my GitHub to my computer, I use clone.
+Branches are created within a repository. When I want do some experiment in a project, I create a new branch.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+1. When you "git status", you can know if you are ahead of origin/master.
+2. When "git fetch", the new commits from remote can be put into the origin/master branch. 
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Without Git or GitHub, we may have certain times to compare progress with each other, which is not easy, and
+merge files with each other, which is not easy, either. I think without Git or GitHub, everything is harder.
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does
+each approach have?
+There are two situations where I would want to make changes in a separate branch. The first is that when I want
+to make changes which are not so official, I want to experiment first in a separate branch so that the master
+branch won't be affected. The other situation is that when I am collaborating with other people, I would first
+make changes in a seperate branch so that people can preview and comment about my branch before I merge it into
+the master branch.
